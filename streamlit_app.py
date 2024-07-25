@@ -3,7 +3,7 @@ import numpy as np  # np mean, np random
 import pandas as pd  # read csv, df manipulation
 import altair as alt
 import streamlit as st
-import matplotlib.pyplot as plt
+
 
 # Streamlit page configuration (must be the first Streamlit command)
 st.set_page_config(layout="wide")
