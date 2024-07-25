@@ -10,8 +10,8 @@ st.set_page_config(layout="wide")
 erimis_path = "C:/Users/dkoral/Desktop/Haziran_Erimişler_2024_py.xlsx"
 erimeyecekler_path = "C:/Users/dkoral/Desktop/Haziran_Eriyecekler_2024_py.xlsx"
 
-Erimis = pd.read_excel(erimis_path)
-Erimeyecekler = pd.read_excel(erimeyecekler_path)
+Erimis = pd.read_excel("C:/Users/dkoral/Desktop/Haziran_Erimişler_2024_py.xlsx")
+Erimeyecekler = pd.read_excel("C:/Users/dkoral/Desktop/Haziran_Eriyecekler_2024_py.xlsx")
 
 # Define regions and their corresponding branches
 regions_dict = {
